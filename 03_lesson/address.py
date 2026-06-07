@@ -8,6 +8,6 @@ class Address:
 
     def __str__(self):
         return (
-            f"{self.index} г {self.city} ул {self.street} "
-            f"д {self.house} кв {self.apartment}"
+            f"{self.index}, {self.city}, {self.street}, "
+            f"{self.house} - {self.apartment}"
         )
